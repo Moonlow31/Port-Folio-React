@@ -1,0 +1,16 @@
+footer {
+  color: white;
+}
+
+footer section h3 {
+  font-size: 0.8rem;
+  margin: 5px 0;
+}
+
+footer section p {
+  font-size: 0.7rem;
+}
+
+footer section img {
+  width: 30px;
+}

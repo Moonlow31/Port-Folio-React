@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.302);
+}
+
+header h1 {
+  margin-bottom: 20px;
+  align-self: center;
+  font-weight: bolder;
+  color: red;
+}
+
+.navBar {
+  align-self: center;
+}
+
+.navBar a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: white;
+}
