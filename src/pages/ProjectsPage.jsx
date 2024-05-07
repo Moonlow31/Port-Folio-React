@@ -1,5 +1,11 @@
+import ProjectList from "../Components/ProjectList";
+
 function ProjectsPage() {
-  return <></>;
+  return (
+    <>
+      <ProjectList />
+    </>
+  );
 }
 
 export default ProjectsPage;

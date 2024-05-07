@@ -8,18 +8,18 @@ function HomePage() {
       <img src="#" alt="picture of franck" />
       <section>
         <div className="title">
-          <p id="greetings">Hello everyone !</p>
+          <p>Hello everyone !</p>
           <h2>
             I'm <strong>Franck Herpoux</strong>
           </h2>
-          <p id="status">A junior Web Developer</p>
+          <p>A junior Web Developer</p>
         </div>
         <div className="buttons">
           <Link to="/ProjectsPage">
             <button>MY WORKS</button>
           </Link>
           <Link to="/ContactPage">
-            <button>CONTACT ME</button>
+            <button>ABOUT ME</button>
           </Link>
         </div>
       </section>
