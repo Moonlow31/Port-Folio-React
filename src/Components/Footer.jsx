@@ -13,6 +13,7 @@ function Footer() {
           <p>16 Avenue de la Plaine, 31700 Mondonville</p>
         </div>
       </section>
+      <hr />
       <section className="phone">
         <img src={phone} alt="phone logo" />
         <div className="BlockPhone">
@@ -20,6 +21,7 @@ function Footer() {
           <p>06.29.69.02.85</p>
         </div>
       </section>
+      <hr />
       <section className="email">
         <img src={email} alt="email logo" />
         <div className="BlockMail">

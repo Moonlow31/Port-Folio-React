@@ -1,0 +1,39 @@
+main {
+  align-content: center;
+  height: calc(100vh / 1.75);
+}
+
+main img {
+  display: none;
+}
+
+main section {
+  text-align: center;
+}
+
+.title {
+  padding: 70px 0;
+}
+
+.title h2 {
+  font-size: 2rem;
+}
+
+.title p {
+  padding: 10px 0;
+  font-size: 1.1rem;
+}
+
+.title h2 strong {
+  color: red;
+}
+
+.buttons button {
+  background-color: rgba(0, 0, 0, 0.302);
+  color: white;
+  width: 120px;
+  height: 50px;
+  border-radius: 15px;
+  border-color: red;
+  margin: 0 20px;
+}
