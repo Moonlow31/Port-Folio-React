@@ -13,8 +13,8 @@
 body {
   background-image: url("./assets/Images/bg_port-folio.avif");
   background-repeat: no-repeat;
-  background-size: auto;
-  height: 100vh;
+  height: auto;
+  background-size: cover;
 }
 
 /* Responsive */

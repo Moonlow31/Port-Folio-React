@@ -1,0 +1,18 @@
+.Card h4 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  text-shadow: 3px 3px 6px red;
+}
+
+.Card a img {
+  width: 100vw;
+}
+
+.Card p {
+  text-align: center;
+  margin-bottom: 10px;
+  text-shadow: 3px 3px 6px red;
+  font-size: 0.7rem;
+}
