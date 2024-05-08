@@ -1,0 +1,60 @@
+.About {
+  text-align: center;
+}
+
+.About h4 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 20px 0;
+  text-shadow: 3px 3px 6px red;
+}
+
+.presentation {
+  border: 1px solid red;
+  background-color: rgba(0, 0, 0, 0.302);
+  padding: 10px;
+  margin: 20px 10px 0;
+  border-radius: 5px;
+}
+
+.presentation strong {
+  color: red;
+}
+
+.presentation p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.softSkills ul {
+  border: 1px solid red;
+  background-color: rgba(0, 0, 0, 0.302);
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+  list-style: none;
+}
+
+.softSkills ul li {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+.techLogos {
+  border: 1px solid red;
+  background-color: rgba(0, 0, 0, 0.302);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+
+.techLogos div {
+  width: 100px;
+  margin: 5px 0;
+}
+
+.techLogos img {
+  height: 60px;
+}

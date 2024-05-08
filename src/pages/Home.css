@@ -25,7 +25,7 @@ main section {
 }
 
 .title h2 strong {
-  color: red;
+  text-shadow: 3px 3px 6px red;
 }
 
 .buttons button {
