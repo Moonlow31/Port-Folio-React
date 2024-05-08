@@ -1,7 +1,11 @@
+import Slider from "react-slick";
+
 import TimeTravel from "../assets/Images/TimeTravel.jpg";
 import StarWild from "../assets/Images/StarWild.png";
 import ComingSoon from "../assets/Images/ComingSoon.jpg";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./ProjectCard.css";
 
 const Projects = [
@@ -19,24 +23,33 @@ const Projects = [
   },
   {
     title: "Next Project",
-    description: "",
+    description: "Coming Soon",
     image: ComingSoon,
     lien: "",
   },
 ];
 
 function ProjectCard() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
   return (
     <div className="AllCards">
-      {Projects.map((project, index) => (
-        <div className="Card" key={[index]}>
-          <h4>{project.title}</h4>
-          <p>{project.description}</p>
-          <a href={project.lien}>
-            <img src={project.image} alt={project.title} />
-          </a>
-        </div>
-      ))}
+      <Slider {...settings}>
+        {Projects.map((project, index) => (
+          <div className="Card" key={[index]}>
+            <h4>{project.title}</h4>
+            <p>{project.description}</p>
+            <a href={project.lien}>
+              <img src={project.image} alt={project.title} />
+            </a>
+          </div>
+        ))}
+      </Slider>
     </div>
   );
 }
