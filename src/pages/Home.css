@@ -36,4 +36,6 @@ main section {
   border-radius: 15px;
   border-color: red;
   margin: 0 20px;
+  font-size: 1rem;
+  font-weight: bold;
 }

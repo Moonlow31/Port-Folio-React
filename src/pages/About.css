@@ -11,7 +11,7 @@
 
 .presentation {
   border: 1px solid red;
-  background-color: rgba(0, 0, 0, 0.302);
+  background-color: rgba(0, 0, 0, 0.49);
   padding: 10px;
   margin: 20px 10px 0;
   border-radius: 5px;
@@ -28,7 +28,7 @@
 
 .softSkills ul {
   border: 1px solid red;
-  background-color: rgba(0, 0, 0, 0.302);
+  background-color: rgba(0, 0, 0, 0.49);
   padding: 10px;
   margin: 0 10px;
   border-radius: 5px;
@@ -42,7 +42,7 @@
 
 .techLogos {
   border: 1px solid red;
-  background-color: rgba(0, 0, 0, 0.302);
+  background-color: rgba(0, 0, 0, 0.49);
   display: flex;
   flex-wrap: wrap;
   padding: 10px;

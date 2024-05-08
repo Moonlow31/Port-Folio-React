@@ -43,10 +43,10 @@ function ProjectCard() {
         {Projects.map((project, index) => (
           <div className="Card" key={[index]}>
             <h4>{project.title}</h4>
-            <p>{project.description}</p>
             <a href={project.lien}>
               <img src={project.image} alt={project.title} />
             </a>
+            <p>{project.description}</p>
           </div>
         ))}
       </Slider>
