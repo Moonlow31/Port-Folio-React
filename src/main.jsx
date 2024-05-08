@@ -4,9 +4,9 @@ import App from "./App.jsx";
 
 // pages
 
-import HomePage from "./pages/HomePage";
-import ProjectsPage from "./pages/ProjectsPage";
-import ContactPage from "./pages/ContactPage";
+import Home from "./pages/Home.jsx";
+import Projects from "./pages/Projects.jsx";
+import About from "./pages/About.jsx";
 
 // router creation
 
@@ -16,15 +16,15 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <HomePage />,
+        element: <Home />,
       },
       {
-        path: "/ProjectsPage",
-        element: <ProjectsPage />,
+        path: "/Projects",
+        element: <Projects />,
       },
       {
-        path: "/ContactPage",
-        element: <ContactPage />,
+        path: "/About",
+        element: <About />,
       },
       {},
     ],

@@ -7,8 +7,8 @@ function Header() {
       <h1>Franck</h1>
       <nav className="navBar">
         <Link to="/">Home</Link>
-        <Link to="/ProjectsPage">My Projects</Link>
-        <Link to="/ContactPage">About</Link>
+        <Link to="/Projects">My Projects</Link>
+        <Link to="/About">About</Link>
       </nav>
     </header>
   );

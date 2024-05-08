@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Link } from "react-router-dom";
-import "./HomePage.css";
+import "./Home.css";
 
-function HomePage() {
+function Home() {
   return (
     <main>
       <img src="#" alt="picture of franck" />
@@ -15,10 +15,10 @@ function HomePage() {
           <p>A junior Web Developer</p>
         </div>
         <div className="buttons">
-          <Link to="/ProjectsPage">
+          <Link to="/Projects">
             <button>MY WORKS</button>
           </Link>
-          <Link to="/ContactPage">
+          <Link to="/About">
             <button>ABOUT ME</button>
           </Link>
         </div>
@@ -27,4 +27,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default Home;

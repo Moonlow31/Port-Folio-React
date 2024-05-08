@@ -1,6 +1,6 @@
 import ProjectList from "../Components/ProjectList";
 
-function ProjectsPage() {
+function Projects() {
   return (
     <>
       <ProjectList />
@@ -8,4 +8,4 @@ function ProjectsPage() {
   );
 }
 
-export default ProjectsPage;
+export default Projects;
