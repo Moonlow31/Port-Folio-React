@@ -32,11 +32,72 @@
 .slick-next {
   z-index: 1;
   right: 10px;
-  background-image: url("../assets/Images/html-5.svg");
 }
 
 .slick-prev:before,
 .slick-next:before {
   opacity: 1;
   color: red;
+}
+
+/* Responsive */
+
+@media screen and (min-width: 361px) {
+  .AllCards {
+    width: 70vw;
+    margin-left: 15vw;
+  }
+
+  .Card h4 {
+    margin: 30px 0;
+    font-size: 2.6rem;
+  }
+
+  .Card a img {
+    width: 50vw;
+    height: 500px;
+    margin-left: 10vw;
+    transition: 0.3s ease-in-out;
+  }
+
+  .Card a img:hover {
+    transform: scale(1.1);
+  }
+
+  .Card p {
+    margin-top: 40px;
+    font-size: 1.3rem;
+  }
+
+  .slick-prev {
+    left: 0;
+    transition: 0.3s ease-in-out;
+  }
+
+  .slick-prev:hover {
+    transform: translate(-5px, -15px);
+  }
+
+  .slick-next {
+    right: 47px;
+    transition: 0.3s ease-in-out;
+  }
+
+  .slick-next:hover {
+    transform: translate(5px, -15px);
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 70px;
+  }
+
+  .slick-dots {
+    position: static;
+    margin-top: 20px;
+  }
+
+  .slick-dots li button:before {
+    font-size: 15px;
+  }
 }

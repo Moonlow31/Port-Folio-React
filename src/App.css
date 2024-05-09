@@ -20,10 +20,7 @@ body {
 /* Responsive */
 
 @media screen and (min-width: 361px) {
-  .navBar a:hover {
-    color: red;
-    text-decoration: underline 3px red;
-    text-underline-offset: 7px;
-    transition: ease 0.25s;
+  body {
+    width: 100vw;
   }
 }

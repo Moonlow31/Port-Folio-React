@@ -39,3 +39,33 @@ main section {
   font-size: 1rem;
   font-weight: bold;
 }
+
+/* Responsive */
+
+@media screen and (min-width: 361px) {
+  .title {
+    padding: 150px 0;
+  }
+  .title h2 {
+    font-size: 3.3rem;
+  }
+
+  .title p {
+    font-size: 1.9rem;
+  }
+
+  .buttons button {
+    width: 180px;
+    height: 80px;
+    margin: 0 40px;
+    font-size: 1.2rem;
+    transition: 0.3s ease-in-out;
+  }
+
+  .buttons button:hover {
+    cursor: pointer;
+    background-color: red;
+    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.768);
+    transform: translate(5px, -5px);
+  }
+}

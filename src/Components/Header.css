@@ -20,3 +20,28 @@ header h1 {
   padding: 0 20px;
   text-decoration: none;
 }
+
+/* Responsive */
+
+@media screen and (min-width: 361px) {
+  header {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 0;
+  }
+
+  header h1 {
+    margin-bottom: 0;
+  }
+
+  .navBar a {
+    font-size: 1.3rem;
+    transition: ease-in-out 0.3s;
+  }
+
+  .navBar a:hover {
+    color: red;
+    text-decoration: underline 3px red;
+    text-underline-offset: 7px;
+  }
+}

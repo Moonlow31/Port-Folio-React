@@ -42,3 +42,57 @@ footer section img {
 .BlockMail p {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Responsive */
+
+@media screen and (min-width: 361px) {
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 0;
+    position: absolute;
+    height: 100px;
+    margin-top: 0;
+  }
+
+  footer section img {
+    margin: 0;
+    margin-right: 20px;
+    width: 50px;
+  }
+
+  footer hr {
+    width: 0;
+    height: 60px;
+    margin: 0;
+    align-self: center;
+  }
+
+  footer section h3 {
+    font-size: 1.2rem;
+  }
+
+  footer section p {
+    font-size: 1rem;
+  }
+
+  footer section a {
+    font-size: 1rem;
+  }
+
+  .BlockLoc,
+  .BlockPhone,
+  .BlockMail,
+  .BlockGithub,
+  .BlockLinkedin {
+    align-content: center;
+  }
+
+  .BlockGithub a:hover,
+  .BlockLinkedin a:hover {
+    color: red;
+    text-decoration: underline 3px red;
+    text-underline-offset: 7px;
+    transition: ease 0.25s;
+  }
+}

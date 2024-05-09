@@ -13,11 +13,6 @@
   color: red;
 }
 
-.AllPresentations p {
-  margin: 5px 0;
-  font-size: 1rem;
-}
-
 .presentationFr,
 .presentationEn {
   border: 1px solid red;
@@ -58,4 +53,37 @@
 
 .techLogos img {
   height: 60px;
+}
+
+/* Responsive */
+
+@media screen and (min-width: 361px) {
+  .About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .presentationFr,
+  .presentationEn {
+    width: 40vw;
+    font-size: 1.3rem;
+  }
+
+  .softSkills ul {
+    margin: 0;
+    width: 20vw;
+  }
+
+  .techLogos div {
+    width: auto;
+    margin: 0;
+  }
+
+  .techLogos img {
+    height: 95px;
+    margin: 10px 20px;
+  }
 }
