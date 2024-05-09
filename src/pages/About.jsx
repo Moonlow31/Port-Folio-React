@@ -12,18 +12,32 @@ import "./About.css";
 function About() {
   return (
     <div className="About">
-      <div className="presentation">
-        <p>
-          Après plusieurs années dans le milieu de l'industrie aéronautique, je
-          me suis lancé dans une reconversion professionnel afin de devenir{" "}
-          <strong>Développeur Web</strong>.
-        </p>
-        <p>
-          Je suis actuellement en formation à la Wild Code School, et{" "}
-          <strong>je cherche une alternance de 15 mois</strong> à partir de{" "}
-          <strong>septembre</strong> pour consolider mes acquis et gagner de
-          nouvelles compétences.
-        </p>
+      <div className="AllPresentations">
+        <div className="presentationFr">
+          <p>
+            Après plusieurs années dans le milieu de l'industrie aéronautique,
+            je me suis lancé dans une reconversion professionnel afin de devenir{" "}
+            <strong>Développeur Web</strong>.
+          </p>
+          <p>
+            Je suis actuellement en formation à la Wild Code School, et{" "}
+            <strong>je cherche une alternance de 15 mois</strong> à partir de{" "}
+            <strong>septembre</strong> pour consolider mes acquis et gagner de
+            nouvelles compétences.
+          </p>
+        </div>{" "}
+        <div className="presentationEn">
+          <p>
+            After several years in the aeronautics industry, I embarked on a
+            career change to become a <strong>Web Developer</strong>.
+          </p>
+          <p>
+            I am currently training at the Wild Code School, and{" "}
+            <strong>I am looking for a 15-month work-study program </strong>{" "}
+            starting in <strong>September</strong> to consolidate my knowledge
+            and gain new skills.
+          </p>
+        </div>
       </div>
       <div className="softSkills">
         <h4>Soft Skills :</h4>

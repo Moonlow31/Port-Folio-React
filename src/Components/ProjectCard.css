@@ -1,7 +1,7 @@
 .Card h4 {
   text-align: center;
   margin: 20px 0;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   font-weight: bolder;
   text-shadow: 3px 3px 6px red;
 }
@@ -13,7 +13,7 @@
 
 .Card p {
   text-align: center;
-  margin: 20px 0;
+  margin-top: 20px;
   text-shadow: 3px 3px 6px red;
   font-size: 0.9rem;
 }
@@ -32,4 +32,11 @@
 .slick-next {
   z-index: 1;
   right: 10px;
+  background-image: url("../assets/Images/html-5.svg");
+}
+
+.slick-prev:before,
+.slick-next:before {
+  opacity: 1;
+  color: red;
 }

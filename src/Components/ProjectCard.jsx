@@ -10,7 +10,7 @@ import "./ProjectCard.css";
 
 const Projects = [
   {
-    title: "Chronologie de l'Humanitée",
+    title: "Go past or back to future",
     description: "An interactive timeline showing the history of humanity",
     image: TimeTravel,
     lien: "https://moonlow31.github.io/Projet-Chrono/",

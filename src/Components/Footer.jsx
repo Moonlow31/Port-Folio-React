@@ -1,6 +1,8 @@
 import location from "../assets/Images/logo_location.svg";
 import phone from "../assets/Images/logo_tel.svg";
 import email from "../assets/Images/logo_email.svg";
+import github from "../assets/Images/logo_github.svg";
+import linkedin from "../assets/Images/logo_linkedin.svg";
 import "./Footer.css";
 
 function Footer() {
@@ -27,6 +29,24 @@ function Footer() {
         <div className="BlockMail">
           <h3>Mail</h3>
           <p>herpouxfranck@hotmail.fr</p>
+        </div>
+      </section>
+      <hr />
+      <section className="github">
+        <img src={github} alt="github logo" />
+        <div className="BlockGithub">
+          <h3>Github</h3>
+          <a href="https://github.com/Moonlow31">Click to check my Github</a>
+        </div>
+      </section>
+      <hr />
+      <section className="linkedin">
+        <img src={linkedin} alt="linkedin logo" />
+        <div className="BlockLinkedin">
+          <h3>Linkedin</h3>
+          <a href="https://www.linkedin.com/in/franck-herpoux/">
+            Click to check my Linkedin
+          </a>
         </div>
       </section>
     </footer>

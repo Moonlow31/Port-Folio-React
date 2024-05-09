@@ -14,7 +14,7 @@ body {
   background-image: url("./assets/Images/bg_port-folio.avif");
   background-repeat: no-repeat;
   height: auto;
-  background-size: auto;
+  background-size: cover;
 }
 
 /* Responsive */
