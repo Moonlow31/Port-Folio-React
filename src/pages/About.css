@@ -77,6 +77,10 @@
     width: 20vw;
   }
 
+  .softSkills ul li {
+    font-size: 1.2rem;
+  }
+
   .techLogos div {
     width: auto;
     margin: 0;
