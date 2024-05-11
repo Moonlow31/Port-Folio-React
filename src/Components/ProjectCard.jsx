@@ -33,6 +33,8 @@ function ProjectCard() {
   const settings = {
     dots: true,
     infinite: true,
+    fade: true,
+    adaptiveHeight: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -50,6 +52,7 @@ function ProjectCard() {
           </div>
         ))}
       </Slider>
+      <div></div>
     </div>
   );
 }

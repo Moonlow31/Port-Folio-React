@@ -1,3 +1,7 @@
+.AllCard div {
+  height: 100px;
+}
+
 .Card h4 {
   text-align: center;
   margin: 20px 0;
@@ -24,6 +28,10 @@
   margin-top: 20px;
 }
 
+.slick-dots li button:before {
+  font-size: 7px;
+}
+
 .slick-prev {
   left: 10px;
   z-index: 1;
@@ -42,7 +50,56 @@
 
 /* Responsive */
 
-@media screen and (min-width: 361px) {
+@media (min-width: 600px) and (max-width: 1135px) {
+  .AllCards {
+    width: 70vw;
+    margin-left: 15vw;
+  }
+
+  .Card a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Card a img {
+    width: 50vw;
+    height: auto;
+    transition: 0.3s ease-in-out;
+  }
+
+  .slick-prev {
+    left: 0;
+    transition: 0.3s ease-in-out;
+  }
+
+  .slick-prev:hover {
+    transform: translate(-5px, -15px);
+  }
+
+  .slick-next {
+    right: 47px;
+    transition: 0.3s ease-in-out;
+  }
+
+  .slick-next:hover {
+    transform: translate(5px, -15px);
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 45px;
+  }
+
+  .slick-dots {
+    padding-bottom: 40px;
+  }
+
+  .slick-dots li button:before {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 1136px) {
   .AllCards {
     width: 70vw;
     margin-left: 15vw;
@@ -53,10 +110,14 @@
     font-size: 2.6rem;
   }
 
+  .Card a {
+    display: flex;
+    justify-content: center;
+  }
+
   .Card a img {
     width: 50vw;
-    height: 500px;
-    margin-left: 10vw;
+    height: auto;
     transition: 0.3s ease-in-out;
   }
 
@@ -93,8 +154,7 @@
   }
 
   .slick-dots {
-    position: static;
-    margin-top: 20px;
+    padding-bottom: 72px;
   }
 
   .slick-dots li button:before {

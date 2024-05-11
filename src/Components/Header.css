@@ -23,7 +23,20 @@ header h1 {
 
 /* Responsive */
 
-@media screen and (min-width: 361px) {
+@media (min-width: 600px) and (max-width: 1135px) {
+  .navBar a {
+    font-size: 1.3rem;
+    transition: ease-in-out 0.3s;
+  }
+
+  .navBar a:hover {
+    color: red;
+    text-decoration: underline 3px red;
+    text-underline-offset: 7px;
+  }
+}
+
+@media screen and (min-width: 1136px) {
   header {
     flex-direction: row;
     justify-content: space-around;
