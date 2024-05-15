@@ -25,7 +25,7 @@ const Projects = [
     title: "Next Project",
     description: "Coming Soon",
     image: ComingSoon,
-    lien: "",
+    lien: "/Projects",
   },
 ];
 
