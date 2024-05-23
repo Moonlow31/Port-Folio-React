@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import TimeTravel from "../assets/Images/TimeTravel.jpg";
 import StarWild from "../assets/Images/StarWild.png";
 import ComingSoon from "../assets/Images/ComingSoon.jpg";
+import personalitree from "../assets/Images/Chene.jpg";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -20,6 +21,12 @@ const Projects = [
     description: "A Spatial trip of the solar system in 3D !",
     image: StarWild,
     lien: "https://star-wild.netlify.app/",
+  },
+  {
+    title: "personaliTREE",
+    description: "A personality test that reveal wich spiritual tree you are",
+    image: personalitree,
+    lien: "https://664750554cfe09000872f721--personalitree.netlify.app/",
   },
   {
     title: "Next Project",
@@ -45,7 +52,7 @@ function ProjectCard() {
         {Projects.map((project, index) => (
           <div className="Card" key={[index]}>
             <h4>{project.title}</h4>
-            <a href={project.lien}>
+            <a href={project.lien} target="_blank">
               <img src={project.image} alt={project.title} />
             </a>
             <p>{project.description}</p>
